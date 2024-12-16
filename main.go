@@ -22,8 +22,9 @@ func main() {
 		isTest = true
 	}
 	days := map[string]func(test bool){
-		"2": days.RunDay2,
 		"1": days.RunDay1,
+		"2": days.RunDay2,
+		"3": days.RunDay3,
 	}
 
 	reader := bufio.NewReader(os.Stdin)
