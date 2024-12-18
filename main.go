@@ -25,6 +25,7 @@ func main() {
 		"1": days.RunDay1,
 		"2": days.RunDay2,
 		"3": days.RunDay3,
+		"4": days.RunDay4A,
 	}
 
 	reader := bufio.NewReader(os.Stdin)
